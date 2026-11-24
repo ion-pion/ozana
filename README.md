@@ -1,4 +1,5 @@
 # Ozana — a web browser written in Oberon, on a phone
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24500142.svg)](https://doi.org/10.5281/zenodo.24500142)
 
 Ozana reads the web herself. She takes pages apart in Oberon‑07, with their words, links, forms and pictures, and the phone's graphics card draws them. She was written and compiled on a Samsung Galaxy A15, without a computer, with **Byz7** (OLL2, an Oberon‑07 → LLVM compiler that runs on the phone).
 
