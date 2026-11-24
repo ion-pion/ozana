@@ -1,0 +1,14 @@
+{
+  "title": "Ozana: a web browser written in Oberon-07 on an Android phone, with picture decoders and GPU textures in Oberon",
+  "upload_type": "software",
+  "description": "<p>Ozana is a web browser written in Oberon-07 and compiled on a Samsung Galaxy A15 with Byz7 (OLL2, an Oberon-07 to LLVM compiler that runs on the phone), without a desktop computer. She reads pages herself: her own HTML reader and layout, links, forms (GET and POST), tabs and private tabs, bookmarks, history, saved pages, find in the page.</p><p>Pictures are decoded in Oberon (Pic6: JPEG baseline and progressive, PNG with Adam7, GIF, WEBP/VP8 with its loop filter; on the test pictures WEBP is identical to libwebp and JPEG 4:2:0 within 4 levels of libjpeg) and drawn as textures by the graphics card (OllGL7; 4000 sprites at 62 fps on the Galaxy A15 in the test app Poze 1).</p><p>Films and sounds play in her own player; films given freely (PeerTube through Sepia Search, the Internet Archive, Wikimedia Commons) are found through their JSON interfaces, read in Oberon (Filme1). Sites that are only JavaScript (YouTube, TikTok, Vimeo, Twitch) open in a box where the phone's own web engine runs the site and its own player; a YouTube film can be handed to NewPipe. A thin Android part (the window, a dex) is spoken to through small files: network, GLES 2, the film player, the box into the whole web, downloads, Share.</p><p>Ozana is the standalone form of Nora, the browser of Pixipogo (Cubicum N), a small operating system in Oberon.</p>",
+  "creators": [
+    {"name": "Paraschiv, Ion", "affiliation": "Jahbalon Research, Iași"}
+  ],
+  "contributors": [
+    {"name": "Claude (Anthropic)", "type": "Other"}
+  ],
+  "keywords": ["Oberon-07", "web browser", "Android", "LLVM", "Byz7", "OLL2", "JPEG decoder", "WEBP decoder", "VP8", "PNG", "OpenGL ES", "GPU textures", "PeerTube", "Internet Archive", "mobile development", "Pixipogo", "Cubicum N"],
+  "license": "MIT",
+  "language": "eng"
+}
